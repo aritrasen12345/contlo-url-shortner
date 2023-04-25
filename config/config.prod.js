@@ -10,7 +10,6 @@ const ENV = process.env.NODE_ENV || "prod";
 
 const configProd = {
   PORT: process.env.PROD_PORT,
-  DB_NAME: process.env.PROD_DB_NAME,
   DB_URL: process.env.PROD_DB_URL,
   DB_PASSWORD: process.env.PROD_DB_PASSWORD,
   JWT_ACTIVATE: process.env.PROD_JWT_ACTIVATE,
