@@ -6,7 +6,7 @@ import { errorHandler } from "../utils/errorHandler.js";
 
 // Import Controllers
 import logInController from "../controllers/auth/loginController.js";
-import signUpController from "../controllers/auth/signUpController.js";
+import signUpController from "../controllers/auth/signupController.js";
 
 const router = express.Router();
 
