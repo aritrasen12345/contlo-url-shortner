@@ -1,0 +1,14 @@
+{
+  "name": "contlo-url-shortner",
+  "version": "1.0.0",
+  "description": "This is an Assignment Project of Contlo for the role of Software Development Intern.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "start:dev": "SET NODE_ENV=dev & nodemon --inspect server.js"
+  },
+  "type": "module",
+  "author": "Aritra Sen",
+  "license": "ISC"
+}
